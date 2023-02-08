@@ -62,7 +62,7 @@ In this project, the previously created 3D model (.obj) is used, and the local c
 
 ![image](https://user-images.githubusercontent.com/97808991/215061984-12b40011-2658-4a98-bdbf-c5d23bfa518d.png)
 
-### Displacement 模型离开底座
+### Displacement 位移
 
 ![image](https://user-images.githubusercontent.com/97808991/215062132-c397ba98-797b-4e1e-820e-faac0e996f9a.png)
 
