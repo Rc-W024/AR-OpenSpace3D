@@ -72,4 +72,4 @@ In this project, the previously created 3D model (.obj) is used, and the local c
 
 ![image](https://user-images.githubusercontent.com/97808991/215062299-baf0a216-52c4-4c26-8373-eac74536e3e7.png)
 
-演示视频请移步：The DEMO VIDEO can be viewed in `AR-Demo.mp4`.
+演示视频请移步：The DEMO VIDEO can be viewed in [`AR-Demo.mp4`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/AR-Demo.mp4).
