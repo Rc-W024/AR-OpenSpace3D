@@ -30,7 +30,7 @@ The basis of AR is to simulate the natural visual process, which is exactly what
 
 AR的基础是模拟自然视觉过程，这正是摄影测量所做的。在摄影测量中，使用立体视觉的原理，我们的大脑就能够根据每只眼睛给出的两个二维图像形成一个三维世界。
 
-In computer vision, eyes are replaced by cameras that capture images from the real world. During capture, the third dimension is lost and the resulting image is stored in a two-dimensional coordinate system in pixels. Therefore, the problem is "simplified" to find the correspondence between the coordinates of a point in the "object" system (3D) and the coordinates of the same point in the "image" system (2D), from which we can know the position of the camera relative to the target system and orientation, so any 3D coordinate can be "projected" onto the image system.
+In computer vision (CV), eyes are replaced by cameras that capture images from the real world. During capture, the third dimension is lost and the resulting image is stored in a two-dimensional coordinate system in pixels. Therefore, the problem is "simplified" to find the correspondence between the coordinates of a point in the "object" system (3D) and the coordinates of the same point in the "image" system (2D), from which we can know the position of the camera relative to the target system and orientation, so any 3D coordinate can be "projected" onto the image system.
 
 在计算机视觉中，眼睛被从现实世界中捕捉图像的相机所取代。 在捕获过程中，第三维度丢失，生成的图像以像素为单位存储在二维坐标系中。 因此，问题就“简化”为寻找“对象”系统（3D）中点的坐标与“图像”系统（2D）中相同点坐标之间的对应关系，从中我们就能知道相机相对于目标系统的位置和方向，因此可将任何3D坐标“投影”到图像系统上。
 
