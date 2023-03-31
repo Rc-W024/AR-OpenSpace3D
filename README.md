@@ -48,7 +48,7 @@ After installing the necessary components, the latest library can be installed f
 
 In this project, the previously created 3D model (.obj) is used, and the local camera of the laptop is used to complete the human-computer interaction. Regarding the marks, a [`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf) template is used, allowing the model to be arranged according to the marks (model and virtual buttons) used by the application. The model mark is 8x8 cm, and the button mark is 3x3 cm.
 
-在本项目中，使用了先前已创建好的3D模型（.obj文件），并使用笔记本电脑自带的本地摄像头完成人机交互。关于标记，使用了[`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf)模板，允许模型根据应用程序使用的标签（模型和虚拟按钮）进行排列。模型标记为8x8厘米，按钮标记为3x3厘米。
+在本项目中，使用了先前已创建好的3D模型（.obj文件），并使用笔记本电脑自带的本地摄像头完成人机交互。关于标记，使用了[`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf)模板，允许模型根据应用程序使用的标签（模型和虚拟按钮）进行排列。模型展示标记尺寸为8x8厘米，控制按钮为3x3厘米。
 
 ## Results
 
