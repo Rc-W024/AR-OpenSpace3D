@@ -28,7 +28,7 @@ GPS用于定位，罗盘用于定向，加速度计用于定倾角。通过在�
 
 The basis of AR is to simulate the natural visual process, which is exactly what photogrammetry does. Using the principles of stereo vision in photogrammetry, our brains are able to form a three-dimensional world from two two-dimensional images given by each eye.
 
-AR的基础是模拟自然视觉过程，这正是摄影测量所做的。在摄影测量中，使用立体视觉的原理，我们的大脑就能够根据每只眼睛给出的两个二维图像形成一个三维世界。
+AR的基础是模拟自然视觉过程，这正是摄影测量技术所研究的。利用摄影测量中立体视觉的原理，我们的大脑就能够根据每只眼睛给出的两个二维图像形成一个三维世界。
 
 In computer vision (CV), eyes are replaced by cameras that capture images from the real world. During capture, the third dimension is lost and the resulting image is stored in a two-dimensional coordinate system in pixels. Therefore, the problem is "simplified" to find the correspondence between the coordinates of a point in the "object" system (3D) and the coordinates of the same point in the "image" system (2D), from which we can know the position of the camera relative to the target system and orientation, so any 3D coordinate can be "projected" onto the image system.
 
