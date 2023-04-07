@@ -32,7 +32,7 @@ AR的基础是模拟自然视觉过程，这正是摄影测量技术所研究的
 
 In computer vision (CV), eyes are replaced by cameras that capture images from the real world. During capture, the third dimension is lost and the resulting image is stored in a two-dimensional coordinate system in pixels. Therefore, the problem is "simplified" to find the correspondence between the coordinates of a point in the "object" system (3D) and the coordinates of the same point in the "image" system (2D), from which we can know the position of the camera relative to the target system and orientation, so any 3D coordinate can be "projected" onto the image system.
 
-在计算机视觉中，眼睛被从现实世界中捕捉图像的相机所取代。 在捕获过程中，第三维度丢失，生成的图像以像素为单位存储在二维坐标系中。 因此，问题就“简化”为寻找“对象”系统（3D）中点的坐标与“图像”系统（2D）中相同点坐标之间的对应关系，从中我们就能知道相机相对于目标系统的位置和方向，因此可将任何3D坐标“投影”到图像系统上。
+在计算机视觉中，眼睛被从现实世界中捕捉图像的相机所取代。在捕获过程中，第三维度丢失，生成的图像以像素为单位存储在二维坐标系中。因此，问题就“简化”为寻找“对象”系统（3D）中点的坐标与“图像”系统（2D）中相同点坐标之间的对应关系，从中我们就能知道相机相对于目标系统的位置和方向，因此可将任何3D坐标“投影”到图像系统上。
 
 The OpenCV library in Python can be used to learn the basics of AR applications. This is a very powerful library dedicated to computer vision that allows performing tasks such as detecting relevant features in images, camera calibration and computing correspondences between object points and image points.
 
@@ -40,7 +40,7 @@ Python中的OpenCV库可用来了解AR应用程序的基础知识。这是一个
 
 Some library files for Python 2.7 are uploaded in the `liberias` folder, including matplotlib, numpy and opencv. The `scripts` folder contains some calibration, capture, detection, extraction and projection function codes for reference. 
 
-在`liberias`文件夹中上传了一些适用于Python 2.7的库文件，包括matplotlib、numpy和opencv，`scripts`文件夹中包含了一些有关校准、捕获、检测、提取和投影的参考代码。
+在`liberias`文件夹中上传了一些适用于Python 2.7的库文件，包括matplotlib、numpy和opencv，`scripts`文件夹中包含了一些有关校准、捕获、检测、提取和投影的参考代码。在安装了必要的组件后，可以从以下链接安装最新的库文件。
 
 After installing the necessary components, the latest library can be installed from: https://sourceforge.net/projects/opencvlibrary/files/
 
@@ -48,7 +48,7 @@ After installing the necessary components, the latest library can be installed f
 
 In this project, the previously created 3D model (.obj) is used, and the local camera of the laptop is used to complete the human-computer interaction. Regarding the marks, a [`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf) template is used, allowing the model to be arranged according to the marks (model and virtual buttons) used by the application. The model mark is 8x8 cm, and the button mark is 3x3 cm.
 
-在本项目中，使用了先前已创建好的3D模型（.obj文件），并使用笔记本电脑自带的本地摄像头完成人机交互。关于标记，使用了[`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf)模板，允许模型根据应用程序使用的标签（模型和虚拟按钮）进行排列。模型展示标记尺寸为8x8厘米，控制按钮为3x3厘米。
+在本项目中，使用了先前已创建好的3D模型（.obj文件），并使用笔记本电脑自带的本地摄像头完成人机交互。使用[`plantilla`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/plantilla.pdf)模板作为标记面板，允许模型根据应用程序使用的标签（模型和虚拟按钮）进行排列。面板中模型展示标记尺寸为8x8厘米，控制按钮为3x3厘米。
 
 ## Results
 
