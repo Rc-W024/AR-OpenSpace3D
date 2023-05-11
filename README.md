@@ -16,7 +16,7 @@ You can install the software from the following address: https://www.openspace3d
 ![215047881-25abca24-b2ad-4741-87e7-db91c8adea86](https://user-images.githubusercontent.com/97808991/224477574-ec960685-531f-464b-996f-13b29fe270e3.png)
 
 - A marker-free system based on image recognition. In this case, the marker will be any image (it's more resource intensive) to find patterns that match the reference image.
-<br />基于图像识别的无标记系统。在这种情况下，标记可以是任何图像（会消耗更多资源），以查找与参考图像匹配的图案。
+<br />基于图像识别的无标记系统。在这种情况下，标记可以是任何图像（更消耗资源），以查找与参考图像匹配的图案。
 
 ### Location based on mobile device sensors
 
