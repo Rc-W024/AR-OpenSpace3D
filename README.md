@@ -11,12 +11,12 @@ You can install the software from the following address: https://www.openspace3d
 ### Monitoring and tracking
 
 - Marker-based recognition. Displays physical markers representing virtual information on a given projection plane. The figure below shows the steps required to project a 3D object in a mark coordinate system.
-<br />基于标记的识别系统。将代表虚拟信息的物理标记显示在给定的投影平面上。下图显示了在标记坐标系中投影3D对象的所需步骤。
+<br>基于标记的识别系统。将代表虚拟信息的物理标记显示在给定的投影平面上。下图显示了在标记坐标系中投影3D对象的所需步骤。
 
 ![215047881-25abca24-b2ad-4741-87e7-db91c8adea86](https://user-images.githubusercontent.com/97808991/224477574-ec960685-531f-464b-996f-13b29fe270e3.png)
 
 - A marker-free system based on image recognition. In this case, the marker will be any image (it's more resource intensive) to find patterns that match the reference image.
-<br />基于图像识别的无标记系统。在这种情况下，标记可以是任何图像（更消耗资源），以查找与参考图像匹配的图案。
+<br>基于图像识别的无标记系统。在这种情况下，标记可以是任何图像（更消耗资源），以查找与参考图像匹配的图案。
 
 ### Location based on mobile device sensors
 
