@@ -1,8 +1,8 @@
 # Application of Virtual 3D Model AR Technology
 
-This project combines three-dimensional modeling and programming knowledge to enable Virtual Reality (VR), Augmented Reality (AR), and related technologies. Its purpose is to combine the modeled 3D model with the [OpenSpace3D](https://www.openspace3d.com/) editor to realize intelligent interaction, allowing the user to perform corresponding operations on the model based on VR technology.
+This project combines three-dimensional (3D) modeling and programming knowledge to enable Virtual Reality (VR), Augmented Reality (AR), and related technologies. Its purpose is to combine the modeled 3D model with the [OpenSpace3D](https://www.openspace3d.com/) editor to realize intelligent interaction, allowing the user to perform corresponding operations on the model based on VR technology.
 
-该项目通过3D建模和编程相结合，以实现虚拟现实、真实现实及其相关技术应用。通过3D模型与[OpenSpace3D](https://www.openspace3d.com/)编辑器实现智能交互，允许用户基于VR技术对模型进行相应操作。
+该项目通过三维建模与编程相结合，以实现虚拟现实、真实现实及其相关技术应用。通过3D模型与[OpenSpace3D](https://www.openspace3d.com/)编辑器实现智能交互，允许用户基于VR技术对模型进行相应操作。
 
 You can install the software from the following address: https://www.openspace3d.com/lang/en/support/download/
 
@@ -22,7 +22,7 @@ You can install the software from the following address: https://www.openspace3d
 
 GPS for position, compass for orientation and accelerometer for inclination. By drawing multimedia content coincident with the current location on the image seen in the mobile phone.
 
-GPS用于定位，罗盘用于定向，加速度计用于定倾角。通过在手机中看到的图像上绘制与当前位置重合的多媒体内容。
+GPS用于定位，罗盘用于定向，加速度计用于确定倾角。通过在手机中看到的图像上绘制与当前位置重合的多媒体内容。
 
 ## Python & AR
 
