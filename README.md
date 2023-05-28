@@ -64,11 +64,11 @@ In this project, the previously created 3D model (.obj) is used, and the local c
 
 ![image](https://user-images.githubusercontent.com/97808991/215062132-c397ba98-797b-4e1e-820e-faac0e996f9a.png)
 
-### Zoom 放大模型
+### Zoom 放大
 
 ![image](https://user-images.githubusercontent.com/97808991/215062203-fa6c38e0-a3f5-4336-b5a0-84ca86f21a92.png)
 
-### Rotation 模型旋转
+### Rotation 旋转
 
 ![image](https://user-images.githubusercontent.com/97808991/215062299-baf0a216-52c4-4c26-8373-eac74536e3e7.png)
 
