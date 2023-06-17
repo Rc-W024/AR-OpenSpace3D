@@ -18,30 +18,30 @@ import cv2
 import glob
 
 # criterio de terminacion (30 = numero de iteraciones; 0.001 = tolerancia sigma)
-criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
+criteria=(cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
 # tamano del damero sin contar las casillas de los bordes
-pattern_size = (7,7)
+pattern_size=(7,7)
 
 # matriz de coordenadas de las esquinas en unidades arbitrarias (0,0,0), (1,0,0), (2,0,0) ....,(6,6,0) [sin escala]
-objp = np.zeros( (np.prod(pattern_size), 3), np.float32 )
-objp[:,:2] = np.indices(pattern_size).T.reshape(-1, 2)
+objp=np.zeros( (np.prod(pattern_size), 3), np.float32 )
+objp[:,:2]=np.indices(pattern_size).T.reshape(-1, 2)
 
 # arrays para almacenar los puntos objeto y los puntos imagen de todas las imagenes.
-objpoints = [] # puntos 3d en el espacio real (el sistema de coordendas es el definido por nosotros).
-imgpoints = [] # puntos 2d en el plano de la imagen.
+objpoints=[] # puntos 3d en el espacio real (el sistema de coordendas es el definido por nosotros).
+imgpoints=[] # puntos 2d en el plano de la imagen.
 
 # lista de imagenes del damero
-images = glob.glob('fotos/*.jpg')
+images=glob.glob('fotos/*.jpg')
 
 for fname in images:
-    img = cv2.imread(fname)
-    gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    img=cv2.imread(fname)
+    gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     # busqueda de las esquinas del damero (coordendas imagen aproximadas)
-    ret, corners = cv2.findChessboardCorners(gray, pattern_size,None)
+    ret, corners=cv2.findChessboardCorners(gray, pattern_size,None)
 
     # si se encuentran las esquinas, se anaden los puntos objeto y los puntos imagen tras refinarlos
-    if ret == True:
+    if ret==True:
         objpoints.append(objp)
         # refinado de las esquinas a nivel subpixel (1/2 tamano de ventana de busqueda)
         cv2.cornerSubPix(gray,corners,(11,11),(-1,-1),criteria)
@@ -60,7 +60,7 @@ cv2.destroyAllWindows()
 # dist: distorsiones k1, k2, k3, p1, p2
 # rvecs: matriz de rotacion (extrinseca)
 # matriz de traslacion (extrinseca)
-ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1],None,None)
+ret, mtx, dist, rvecs, tvecs=cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1],None,None)
 print mtx
 print 100*'-'
 print dist
