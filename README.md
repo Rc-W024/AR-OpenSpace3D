@@ -2,9 +2,9 @@
 
 This project combines three-dimensional (3D) modeling and programming knowledge to enable Virtual Reality (VR), Augmented Reality (AR), and related technologies. Its purpose is to combine the modeled 3D model with the [OpenSpace3D](https://www.openspace3d.com/) editor to realize intelligent interaction, allowing the user to perform corresponding operations on the model based on VR technology.
 
-该项目通过三维建模与编程相结合，以实现虚拟现实（VR）、真实现实（AR）及其相关技术应用。通过3D模型与[OpenSpace3D](https://www.openspace3d.com/)编辑器实现智能交互，允许用户基于VR技术对模型进行相应操作。
+The software can be installed from the following address: https://www.openspace3d.com/lang/en/support/download/
 
-You can install the software from the following address: https://www.openspace3d.com/lang/en/support/download/
+该项目通过三维建模与编程相结合，以实现虚拟现实（VR）、真实现实（AR）及其相关技术应用。通过3D模型与[OpenSpace3D](https://www.openspace3d.com/)编辑器实现智能交互，允许用户基于VR技术对模型进行相应操作。
 
 ## Workflow
 
