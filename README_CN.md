@@ -46,4 +46,5 @@ Python中的OpenCV库可用来了解AR应用程序的基础知识。这是一个
 ### 旋转
 ![image](https://user-images.githubusercontent.com/97808991/215062299-baf0a216-52c4-4c26-8373-eac74536e3e7.png)
 
-演示视频请移步：[`AR-Demo.mp4`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/AR-Demo.mp4)
+## 演示
+https://github.com/Rc-W024/AR-OpenSpace3D/assets/97808991/b0c27dd4-edc8-4af9-b3b7-29226ea4dd65
