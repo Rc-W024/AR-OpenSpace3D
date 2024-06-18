@@ -46,4 +46,5 @@ In this project, the previously created 3D model (.obj) is used, and the local c
 ### Rotation
 ![image](https://user-images.githubusercontent.com/97808991/215062299-baf0a216-52c4-4c26-8373-eac74536e3e7.png)
 
-The DEMO VIDEO can be viewed in [`AR-Demo.mp4`](https://github.com/Rc-W024/AR-OpenSpace3D/blob/main/AR-Demo.mp4).
+## Demo
+https://github.com/Rc-W024/AR-OpenSpace3D/assets/97808991/b0c27dd4-edc8-4af9-b3b7-29226ea4dd65
