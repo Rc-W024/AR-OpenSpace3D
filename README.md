@@ -1,6 +1,8 @@
 # Application of Virtual 3D Model AR Technology
 English | [中文](README_CN.md)
 
+![](https://skillicons.dev/icons?i=python)
+
 This project combines three-dimensional (3D) modeling and programming knowledge to enable Virtual Reality (VR), Augmented Reality (AR), and related technologies. Its purpose is to combine the modeled 3D model with the [OpenSpace3D](https://www.openspace3d.com/) editor to realize intelligent interaction, allowing the user to perform corresponding operations on the model based on VR technology.
 
 The software can be installed from the following address: https://www.openspace3d.com/lang/en/support/download/
