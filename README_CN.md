@@ -5,7 +5,7 @@
 
 该项目通过三维建模与编程相结合，以实现虚拟现实（VR）、真实现实（AR）及其相关技术应用。通过3D模型与[OpenSpace3D](https://www.openspace3d.com/)编辑器实现智能交互，允许用户基于VR技术对模型进行相应操作。
 
-软件可通过该链接安装：https://www.openspace3d.com/lang/en/support/download/
+软件可通过该链接安装：https://www.openspace3d.com/en/download-software-openspace3d/
 
 ## 任务框架
 ### 监视与跟踪
